@@ -196,3 +196,9 @@ AI开放平台中情感倾向分析采用的模型(http://ai.baidu.com/tech/nlp/
 
 * 符合[google C++代码规范](https://google.github.io/styleguide/cppguide.html)，且一次缩进为4个空格。
 * 有对应的单测代码。
+
+学习笔记
+---
+
+* 运行模型训练：
+python sentiment_classify.py --train_data_path ./data/train_data/corpus.train --word_dict_path ./data/train.vocab --mode train --model_path ./models
